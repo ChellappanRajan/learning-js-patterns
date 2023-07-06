@@ -72,3 +72,16 @@ class ThemeComponent {
     }
 }
 ```
+
+In React 
+ We relay on redux or context API.Their global state behavior may seems similar to singleton.
+ 
+
+### Advantages of singleton
+
+ Single pattern ensures only one instance of class is created, which will save memory.
+
+## Disadvantages
+ ### Testing
+  Since we can't create multiple instance testing can be tricky, small modification to state will cause all test case to fail.
+ 
